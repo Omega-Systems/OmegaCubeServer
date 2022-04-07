@@ -1,0 +1,66 @@
+:root {
+    --background-color: #030303; 
+    --foreground-color: #1A1A1B;
+    --border-color: #343536;
+    --text-color: #F0F6FC;
+    --success-color: #4CAF50;
+    --error-color: #FF5252;
+}
+
+body {
+    margin: 0px;
+    font-family: "Nunito", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar {
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: var(--foreground-color);
+}
+
+.navbar-start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.navbar-end > p {
+
+}
+
+.navbar-end > a {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-end > a > img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+}
